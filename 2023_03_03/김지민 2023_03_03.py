@@ -1,0 +1,6 @@
+name = input()
+print('name: '+ name)
+Age = input()
+print('Age: '+ Age)
+gender = input()
+print('gender :'+ gender)
