@@ -1,4 +1,11 @@
+# 구구단
 for i in range(1, 10):
     for j in range(1, 10):
-            print('%d * %d = %2d' %(i, j, i*j)) # 자바식 printf 
+            print('%d * %d = %2d' %(i, j, i*j))
     print('----------')
+
+# 진화버전 
+for i in range(1, 10):
+    for j in range(1, 10):
+            print('%d * %d = %2d' %(i, j, i*j), end = '     ')
+    print()
