@@ -1,0 +1,14 @@
+n = int(input())
+
+for i in range(n):
+    cnt = 0
+    temp = 0
+
+    Qnd = input()
+    for j in (Qnd) :
+        if(j == 'O'):
+            cnt += 1
+            temp += cnt
+        else :
+            cnt = 0
+    print(temp)
