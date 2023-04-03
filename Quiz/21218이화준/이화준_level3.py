@@ -6,11 +6,11 @@ while True:
       a = num // 10
       b = num % 10
 
-     sum = ( a + b ) % 10
-     num = ( b * 10 ) + sum
-     cnt += 1
+      sum = ( a + b ) % 10
+      num = ( b * 10 ) + sum
+      cnt += 1
 
-     if(num == n):
-         break
+      if(num == n):
+          break
 
 print(cnt)
